@@ -5,6 +5,7 @@ project(monitor VERSION 0.0.1 LANGUAGES CXX)
 find_package(OpenDDS REQUIRED)
 
 add_subdirectory(thirdparty/OpenDDW)
+add_subdirectory(thirdparty/qt5)
 
 if(WIN32)
   set(qt_optional_components "")

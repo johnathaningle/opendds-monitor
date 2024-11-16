@@ -4,3 +4,6 @@
 [submodule "thirdparty/opendds"]
 	path = thirdparty/opendds
 	url = https://github.com/OpenDDS/OpenDDS.git
+[submodule "thirdparty/qt5"]
+	path = thirdparty/qt5
+	url = https://github.com/qt/qt5.git
